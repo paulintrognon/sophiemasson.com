@@ -1,39 +1,33 @@
-<div class="portrait">
-	Sophie likes illustrating subjects for the decorative arts press 
-	(Figaro Madame, Idées magazine, Campagne Décoration)  creating 
-	with her customers the ideal crockery, offering to the shops and 
-	decorators exclusive collections (grass fairies,…) imagining 
-	projects for public events (Lancome trophy, Milo…).
-	<br />
-	<br />
-	Partner of 2001 lists, find  Sophie Masson on 
-	<a href="http://www.1001listes.fr/catalogueProduit/Sophie-Masson" target="_blank">www.1001listes.fr</a>
+<div class="portrait-perso" id="portrait-sophie">
+
+    <img src="http://www.sophiemasson.com/images/portrait_sophie_masson_porcelain.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
+
+    <p class="portrait-text">
+        Styliste formée à Paris au cours Bercot, Sophie parfait<br />
+        son expérience dans les bureaux de tendances parisiens.<br />
+        En parallèle, elle décide de suivre une formation de décoratrice sur porcelaine.<br/>
+        Passionée, elle se perfectionne à Limoges et s'affirme<br />
+        auprès des professesionnels et particuliers.<br />
+        Sa créativité est vite repérée par les décorateurs et journalistes.<br />
+        Elle illustre des sujets pour la presse déco, crée avec ses clients des services<br />
+        sur mesure et propose aux boutiques et décorateurs des collections exclusives<br />
+        ainsi que des projets évènementiels Lancôme, Réunion des musées nationaux,<br />
+        les Fées d'Herbe, Elle déco...
+    </p>
 </div>
 
-<div class="portrait">
-	From a few evening classes to the training courses in Limoges she asserts herself 
-	as  a passionate by professionals and  private individuals. Sophie Masson 
-	paints her porcelain to order : plates, coffee cups, trays…. She uses simple 
-	shapes on which she declines her shades of colours with multiple hues. 
-	Bayadere or plain, monochrome or with merging shades with a dragonfly or 
-	else, finished with a thin gold or platinum line. Each piece is unique.
+<div class="portrait-perso" id="portrait-valerie">
+    
+    <img src="http://www.sophiemasson.com/images/portrait_valerie_delobal.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
+    
+    <p class="portrait-text">
+        Depuis sa plus tendre enfance, Valérie parcourt le monde<br />
+        à la recherche du beau.<br />
+        Des rencontres, des voyages inspirants ont peaufiné son sens de l'esthétisme.<br />
+        Après un passage dans le monde de la mode, et toujours avide de<br />
+        nouveautés, Valérie s'affirme dans le domaine de la communication.<br />
+        Devenue Directeur Artistique en Agence,<br />
+        Valérie collabore avec des grands noms de la déco:<br />
+        Gilles de Chabaneix, Patrick Vanrobays, Véronique Mery, Christian Lacroix...
+    </p>
 </div>
-
-<div class="portrait">
-	From her training as a designer and her visits to trend consulting agencies 
-	Sophie Masson has mainly kept the taste for colour. Sophie has nothing to 
-	do with the artist that keeps on writing notes on her sketch book she just 
-	records images. The right time, after having gone through the filter of her 
-	sensibility and trends outlines and colours shape up. Porcelain painting 
-	has rapidly appeared  as the best territory to express her talent.
-</div>
-
-<div class="portrait">
-	<img src="http://www.sophiemasson.com/images/porcelaine-sophie-masson2.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
-</div>
-
-<div class="spacer">&nbsp;</div>
-
- 
-
- 

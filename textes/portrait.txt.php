@@ -1,39 +1,33 @@
-<div class="portrait">
-	Sophie aime illustrer des sujets pour la presse déco (Figaro Madame, Idées Magazine, 
-	Campagne Décoration...), créer avec ses clients le service rêvé, proposer aux boutiques 
-	et décorateurs des collections exclusives (les fées d’herbes, ...), imaginer des 
-	projets pour l’événementiel (trophée Lancôme, Milo, ...).
-	<br />
-	<br />
-	Partenaire de 1001 listes, retrouvez Sophie Masson sur 
-	<a href="http://www.1001listes.fr/catalogueProduit/Sophie-Masson" target="_blank">www.1001listes.fr</a>
+<div class="portrait-perso" id="portrait-sophie">
+
+    <img src="http://www.sophiemasson.com/images/portrait_sophie_masson_porcelain.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
+
+    <p class="portrait-text">
+        Styliste formée à Paris au cours Bercot, Sophie parfait<br />
+        son expérience dans les bureaux de tendances parisiens.<br />
+        En parallèle, elle décide de suivre une formation de décoratrice sur porcelaine.<br/>
+        Passionée, elle se perfectionne à Limoges et s'affirme<br />
+        auprès des professesionnels et particuliers.<br />
+        Sa créativité est vite repérée par les décorateurs et journalistes.<br />
+        Elle illustre des sujets pour la presse déco, crée avec ses clients des services<br />
+        sur mesure et propose aux boutiques et décorateurs des collections exclusives<br />
+        ainsi que des projets évènementiels Lancôme, Réunion des musées nationaux,<br />
+        les Fées d'Herbe, Elle déco...
+    </p>
 </div>
 
-<div class="portrait">
-	De quelques cours du soir aux stages professionnels à Limoges 
-	elle s'affirme comme une passionnée auprès des professionnels et des particuliers.
-	Sophie Masson peint toute sa porcelaine sur commande: assiettes, tasses à café, 
-	déjeuners, plateaux, ... Elle utilise des formes simples sur lesquelles 
-	elle décline sa gamme de couleurs aux multiples nuances. Bayadère ou unie, en camaïeux, 
-	rehaussée d’une libellule ou autre, finie d’un filet d’or ou de platine chaque pièce 
-	est unique.
+<div class="portrait-perso" id="portrait-valerie">
+    
+    <img src="http://www.sophiemasson.com/images/portrait_valerie_delobal.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
+    
+    <p class="portrait-text">
+        Depuis sa plus tendre enfance, Valérie parcourt le monde<br />
+        à la recherche du beau.<br />
+        Des rencontres, des voyages inspirants ont peaufiné son sens de l'esthétisme.<br />
+        Après un passage dans le monde de la mode, et toujours avide de<br />
+        nouveautés, Valérie s'affirme dans le domaine de la communication.<br />
+        Devenue Directeur Artistique en Agence,<br />
+        Valérie collabore avec des grands noms de la déco:<br />
+        Gilles de Chabaneix, Patrick Vanrobays, Véronique Mery, Christian Lacroix...
+    </p>
 </div>
-
-<div class="portrait">
-	De sa formation de styliste et de ses passages dans les bureaux de tendance , 
-	Sophie Masson à surtout retenu le goût de la couleur. Sophie n'a rien de l'artiste 
-	inséparable de son carnet de croquis, elle se contente d'enregistrer les images. 
-	Le moment venu, passés par le filtre de sa sensibilité et des tendances, contours et 
-	couleurs se dessinent. La peinture sur porcelaine est vite apparue comme la plus libre 
-	pour exprimer son talent. 
-</div>
-
-<div class="portrait">
-	<img src="http://www.sophiemasson.com/images/porcelaine-sophie-masson2.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
-</div>
-
-<div class="spacer">&nbsp;</div>
-
- 
-
- 

@@ -1,0 +1,558 @@
+/* -------------------------------------------------------------------------------------- */
+/* --------------------     Blocs du site sophiemasson.com       ---------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #FFF;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+
+#container {
+    min-width: 1024px;
+    margin: 20px auto;
+    padding: 0px;
+}
+
+
+/* ----  Bloc version langue  --- */
+.langue_site {
+    float:right;
+    text-align: right;
+    list-style-type: none;
+    margin: 5px 0;
+    padding: 0px;
+    width: 200px;
+}
+.langue_site li {
+    display: inline;
+    padding: 5px 10px;
+    font-size: 10px;
+    color: #CBC8C4;
+}
+.langue_site li a, .langue_site li a:visited {
+    color: #CBC8C4;
+    text-decoration: none;
+}
+.langue_site li a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.langue_site li a strong {
+    text-decoration: underline;
+}
+
+
+
+#main_content {
+    clear:both;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+
+/* ----   Bloc  Logo   ----- */
+#header {
+    margin: 0px;
+    padding: 0px 10px;
+}
+#header #facebook-like-iframe {
+    float: left;
+    width:200px;
+}
+#logo {
+    margin: 0px 0px 30px 0px;
+    padding: 0px;
+    text-align: center;
+}
+#logo #website-title, #logo #website-subtitle {
+    margin: 0;
+    font-weight: normal;
+}
+#logo #website-title a {
+    color: #BCBEC0;
+    text-decoration: none;
+    font-size: 36px;
+}
+#logo #website-subtitle {
+    color: #7C7D7D;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: -5px;
+}
+
+/* ----   Bloc  Menu  ----- */
+#menu {
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
+}
+#menu ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#menu li {
+    margin: 0px;
+    padding: 5px 35px;
+    display: inline;
+}
+#menu li a, #menu li a:visited, #menu li a:hover strong {
+    text-decoration: none;
+    color: #8D8E8E;
+}
+#menu li a:hover {
+    color: #606060;
+    text-decoration: none;
+}
+
+
+
+/* --------------  Corps de la page   ----------- */
+#main {
+    background-color: #EDEDED;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    min-height: 300px;
+    color: #6A6A6A;
+}
+
+
+/* intro */
+#fauteuil {
+    margin: 0px;
+    padding: 0px;
+}
+#fauteuil img {
+    border: 0px;
+}
+#bloc_photos_home {
+    padding: 30px 0px;
+}
+.theme_home {
+    margin: 0px;
+    padding: 0px;
+}
+.theme_home img {
+    border: none;
+}
+
+
+/* colonne gauche */
+.img_menu {
+    margin: 0px;
+    padding: 0px;
+}
+.txt_presentation {
+    margin: 0px;
+    padding: 0px;
+    color: #666;
+}
+
+
+
+/* page */
+.titre_page {
+    color: #666;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+#services {
+    width: 700px;
+    margin: auto;
+}
+
+#portrait {
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+.portrait-perso {
+    width: 790px;
+    display: inline-block;
+    margin-bottom: 30px;
+    vertical-align:top; 
+}
+
+.portrait-text {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+
+#portrait-sophie img {
+    float: right;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+#portrait-sophie .portrait-text {
+    text-align: right;
+}
+
+#portrait-valerie img {
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+#portrait-valerie .portrait-text {
+    text-align: left;
+}
+
+.portrait {
+    float: right;
+    width: 140px;
+    margin: 20px 15px;
+    padding: 0px;
+    text-align: left;
+    color: #8F7A7B;
+}
+.portrait img {
+    border: 1px solid #8F7A7B;
+    margin: 5px 0px;
+}
+.portrait h2 {
+    margin: 0px;
+    padding: 3px;
+    font-size: 14px;
+    vertical-align: bottom;
+    border-bottom: 1px solid #8F7A7B;
+    color: #FFF;
+}
+.portrait p {
+    margin: 5px;
+    padding: 0px;
+}
+.portrait p span {
+    font-style: italic;
+    font-size: 10px;
+}
+.portrait a, .portrait a:visited {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+.portrait a:hover {
+    color: #703A61;
+    text-decoration: none;
+}
+
+#tailor-made {
+    width: 650px;
+    margin: auto;
+}
+
+.intro_vaisselle {
+    float: left;
+    width: 140px;
+    margin: 20px 15px;
+    padding: 0px;
+    text-align: left;
+    color: #8F7A7B;
+}
+.couleur_vaisselle {
+    float: left;
+    width: 80px;
+    margin: 20px 15px;
+    padding: 0px;
+    text-align: left;
+    color: #8F7A7B;
+}
+.vaisselle {
+    float: left;
+    width: 340px;
+    margin: 20px 15px;
+    padding: 0px;
+    text-align: center;
+    color: #8F7A7B;
+}
+
+.forme_vaisselle {
+    float: left;
+    width: 150px;
+    margin: 10px 5px;
+    padding: 0px;
+    text-align: center;
+}
+
+/* revue de presse */
+.presse {
+    margin: 0px auto;
+    padding: 5px;
+    width: 680px;
+    color: #8F7A7B;
+}
+.couv_presse {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+.couv_presse img {
+    border: 0px;
+}
+#retombee_presse {
+    margin: 10px;
+    padding: 0px;
+}
+#article_presse {
+    float: left;
+    margin: 0px;
+    padding: 5px;
+    border: 1px solid #8F7A7B;
+}
+#details_presse {
+    float: left;
+    width: 250px;
+    margin: 0px 10px;
+    padding: 0px;
+    border-top: 1px solid #8F7A7B;
+    text-align: left;
+}
+#details_presse p {
+    margin: 8px;
+    padding: 0px;
+}
+#details_presse a, #details_presse a:visited {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+#details_presse a:hover {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+.nbre_pages {
+    margin: 5px;
+    padding: 0px;
+    list-style-type: none;
+}
+.nbre_pages li {
+    display: inline;
+    margin: 0px 5px 0px 0px;
+    padding: 2px 4px;
+    border: 1px solid #8F7A7B;
+}
+.nbre_pages li a {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+
+
+
+/* catalogue */
+#collection, #intro_catalogue {
+    margin: 0px 0px;
+    padding: 15px 0px;
+}
+#collection img {
+    border: 0px;
+}
+#collection div {
+    text-align: center;
+}
+.produit_sophie {
+    display: inline-block;
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+}
+.produit_sophie img {
+    border: none;
+}
+
+.liste_themes_cata {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 15px;
+}
+.liste_themes_cata li {
+    display: inline;
+    padding: 0px 20px;
+}
+.liste_themes_cata li a, .liste_themes_cata li a:visited {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+.liste_themes_cata li a:hover {
+    color: #663559;
+    text-decoration: underline;
+}
+
+.theme_catalogue {
+    margin: 0px;
+    padding: 0px 10px;
+    text-align: center;
+    display: inline-block;
+}
+.theme_catalogue img {
+    width: 150px;
+    margin: 0px;
+    border: none;
+}
+.theme_catalogue p {
+    margin: 0px;
+}
+.theme_catalogue p a {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+.theme_catalogue .legend {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.fiche_produit {
+    margin: 10px auto;
+    padding: 0px;
+    text-align: center;
+    width: 700px;
+}
+.fiche_produit div img {
+    border: 1px solid #8F7A7B;
+}
+.fiche_produit h1, .fiche_produit p {
+    font-size: 12px; 
+    margin: 5px 0px 0px 50px;
+    padding: 0px;
+    color: #8F7A7B;
+    text-align: left
+}
+.fiche_produit p a, .fiche_produit p a:visited {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+.fiche_produit p a:hover {
+    color: #8F7A7B;
+    text-decoration: underline;
+}
+
+/* Contact */
+#form_contact {
+    margin: 0px auto;
+    padding: 0px;
+    width: 640px;
+}
+#form_contact form, #form_contact fieldset {
+    margin: 5px;
+    padding: 0px;
+    border: 0px;
+    text-align: right;
+}
+#form_contact h6 {
+    text-align: left;
+    font-size: 14px;
+}
+#form_contact form div {
+    clear: both;
+    margin: 0px;
+    padding: 4px;
+}
+.intitule {
+    float: left;
+    width: 180px;
+    margin: 0px;
+    padding: 0px 5px;
+    text-align: right;
+    color: #8F7A7B;
+}
+.balise {
+    float: left;
+    width: 370px;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+.champs {
+    width: 300px;
+    font-size: 11px;
+    color: #8F7A7B;
+    padding: 1px 3px;
+    border: 1px solid #8F7A7B;
+}
+.submit {
+    background-color: #DEBED5;
+    border: 1px solid #8F7A7B;
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFF;
+    padding: 4px 2px;
+}
+
+
+
+
+/* actu */
+#actu {
+    margin: 20px 20px;
+    padding: 0px 30px;
+    text-align: left;
+}
+#actu h2 {
+    margin: 0px;
+    padding: 5px;
+    font-size: 16px;
+    border-bottom: 1px solid #8F7A7B;
+    color: #FFF;
+}
+#actu p {
+    margin: 5px 0px;
+    padding: 5px;
+}
+#actu p a, #actu p a:visited {
+    color: #8F7A7B;
+    text-decoration: none;
+}
+#actu p a:hover {
+    color: #8F7A7B;
+    text-decoration: underline;
+}
+#actu p span {
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+
+
+#footer {
+    margin: 10px 0px;
+    padding: 0px;
+    text-align: center;
+}
+#signature {
+    color: #999;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin: 0px;
+    padding: 0px;
+}
+#signature p {
+    margin: 3px;
+    padding: 0px;
+}
+#signature p a {
+    color: #999;
+    text-decoration: underline;
+}
+.spacer {
+    clear: both;
+    height: 5px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}

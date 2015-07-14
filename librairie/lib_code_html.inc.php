@@ -27,6 +27,7 @@ function ecrire_balise_head($meta_title,$meta_description,$meta_keywords,$lien_c
 	$head .= ecrire_meta_http(CHARSET);
 	$head .= ecrire_lien_css($lien_css);
 	$head .= ajouter_liens_javascript($java);
+        $head .= '<link href="http://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet" type="text/css">';
 	$head .= '<script type="text/javascript" src="librairie/scriptaculous/lib/prototype.js"></script>';
 	$head .= '<script type="text/javascript" src="librairie/scriptaculous/lib/scriptaculous.js"></script>';
 	$head .= '<script type="text/javascript">
@@ -52,8 +53,8 @@ function ecrire_slogan()
 	$title = $GLOBALS['title'];
 	
 	$html = '<div id="logo">';
-	$html .= '<div><a href="'.URL.'" title="'.$title['LogoSite'].'"><img src="'.$lien['Images'].$img['LogoSite'].'" alt="'.$alt['LogoSite'].'" /></a></div>';
-	$html .= '<p>'.$phrase['SloganSite'].'</p>';
+	$html .= '<h1 id="website-title"><a href="'.URL.'" title="'.$title['LogoSite'].'">sophie masson & delobal</a></h1>';
+	$html .= '<h2 id="website-subtitle">porcelaine</h2>';
 	$html .= '</div>';
 	return $html;
 }
@@ -103,7 +104,7 @@ function entrer_dans_site($langue)
 	
 	$requete = rq_themes_homepage($langue);
 	connexion_base(SERVEUR,HOST,PASSWORD,BASE);
-	$result = mysql_query($requete) or die ();
+	$result = mysql_query($requete) ;
 	connexion_end();
 	if (mysql_num_rows($result) > 0)
 	{
@@ -256,7 +257,7 @@ function ecrire_coordonnees()
 	$adr .= '<ul>';
 	$adr .= '<li><a href="'.$lien['MentionsCreation'].'" title="'.$title['MentionsCreation'].'" target="_blank">'.$phrase['MentionsCreation'].'</a></li>';
 	$adr .= '<li><a href="'.$lien['MentionsDeveloppement'].'" title="'.$title['MentionsDeveloppement'].'" target="_blank">'.$phrase['MentionsDeveloppement'].'</a></li>';
-	$adr .= '<li><a href="'.$lien['MentionsPhotos'].'" title="'.$title['MentionsPhotos'].'" target="_blank">'.$phrase['MentionsPhotos'].'</a></li>';
+//	$adr .= '<li><a href="'.$lien['MentionsPhotos'].'" title="'.$title['MentionsPhotos'].'" target="_blank">'.$phrase['MentionsPhotos'].'</a></li>';
 	$adr .= '</ul>';
 	$adr .= '</div>';
 	return $adr;
@@ -280,8 +281,8 @@ function ecrire_footer()
 	$html .= '<p>'.$phrase['footer'].'</p>';
 	$html .= '<p>'.$phrase['AdresseMasson'].' '.$phrase['VilleMasson'].'</p>';
 	$html .= '<p>'.$phrase['Copyrights'].'</p>';
-	$html .= '<p><a href="'.$lien['MentionsPhotos'].'">'.$phrase['MentionsPhotos'].'</a> - ';
-	$html .= '<a href="'.$lien['MentionsDeveloppement'].'">'.$phrase['MentionsDeveloppement'].'</a></p>';
+//	$html .= '<a href="'.$lien['MentionsPhotos'].'">'.$phrase['MentionsPhotos'].'</a> - ';
+	$html .= '<p><a href="'.$lien['MentionsDeveloppement'].'">'.$phrase['MentionsDeveloppement'].'</a></p>';
 	$html .= '</div>';
 		//$html .= '<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fplatform&width=292&colorscheme=light&show_faces=true&stream=true&header=true&height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:427px;" allowTransparency="true"></iframe>';
 	$html .= '</div>';
@@ -500,10 +501,10 @@ function ecrire_intro_catalogue($langue)
 		{
 			$lien_page = $lien['Collection'].$row['ID'].'/0/'.transformer_chaine_url($row['Titre']);
 			$html .= '<div class="theme_catalogue">';
-			$html .= '<a href="'.$lien_page.'" title="'.affichage_donnee($row['Titre']).'">';
+			$html .= '<p><a href="'.$lien_page.'" title="'.affichage_donnee($row['Titre']).'">';
 			$html .= '<img src="'.URL_IMG.$row['Image'].'" alt="'.affichage_donnee($row['Titre']).'" width="110" />';
-			$html .= '</a>';
-			$html .= '<p><a href="'.$lien_page.'" title="'.affichage_donnee($row['Titre']).'">'.affichage_donnee($row['Titre']).'</a></p>';			
+			$html .= '</a></p>';
+			$html .= '<p class="legend"><a href="'.$lien_page.'" title="'.affichage_donnee($row['Titre']).'">'.affichage_donnee($row['Titre']).'</a></p>';			
 			$html .= '</div>';
 		}
 		$html .= '<div class="spacer">&nbsp;</div>';

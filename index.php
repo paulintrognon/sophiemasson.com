@@ -4,13 +4,14 @@
 // -----------------------------------------------------------------------------------------
 require("fichiers_conf.php");
 
-
 $url = explode("/",$_SERVER['REQUEST_URI']);
 
-$langue = $url[NUM];
-$section = $url[NUM+1];
-$parametres = $url[NUM+2];
-$item = $url[NUM+3];
+$num = NUM;
+
+$langue = isset($url[$num]) ? $url[$num] : NULL;
+$section = isset($url[$num+1]) ? $url[$num+1] : NULL;
+$parametres = isset($url[$num+2]) ? $url[$num+2] : NULL;
+$item = isset($url[$num+3]) ? $url[$num+3] : NULL;
 
 if ($langue == "porcelaine" OR empty($langue))
 {	
