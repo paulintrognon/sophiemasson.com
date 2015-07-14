@@ -1,0 +1,87 @@
+body {
+	background-color: #DED7C0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-image:  url(../images/background-admin.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+#form_upload {
+	margin: 80px 20px 20px 15px;
+	padding: 0px;
+	width: 700px;
+	background-color: #FFF;
+}
+#form_upload form {
+	margin: 0px;
+	padding: 0px;
+}
+#form_upload fieldset {
+	margin: 0px 10px;
+	padding: 5px;
+	border: 0px;
+}
+#form_upload legend {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #A8005D;
+	margin: 0px 30px 10px 30px;
+	padding: 5px 0px;
+	border-bottom: 1px solid #C8C932;
+}
+#form_upload div {
+	clear: both;
+	margin: 10px 5px;
+	padding: 5px;
+}
+.intitule {
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding: 3px 5px;
+	margin: 0px;
+}
+.balise {
+	float: left;
+	width: 300px;
+	text-align: left;
+	padding: 0px 5px -5px 5px;
+	margin: 0px;
+}
+.astuce {
+	float: left;
+	width: 120px;
+	text-align: left;
+	padding: 0px 5px;
+	margin: 0px;
+	font-size: 11px;
+	color: #666;
+}
+.champsupl {
+	padding: 1px 0px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.txtupload {
+	margin: 10px 30px 20px 50px;
+	padding: 0px;
+}
+h6 {
+	margin: 0px 30px 20px 50px;
+	padding: 0px;
+	font-size: 14px;
+	text-align: center;
+	color: #903;
+}
+
+#spacer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	border: 0px;
+}

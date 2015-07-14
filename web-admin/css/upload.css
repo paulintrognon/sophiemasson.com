@@ -1,0 +1,152 @@
+body {
+	background-color: #DED7C0;
+	background-image: url(../images/background-admin2.png);
+	background-position: 0px -65px;
+	background-repeat: repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	margin: 10px 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #A8005D;
+	margin: 0px 30px 10px 30px;
+	padding: 5px 0px;
+	border-bottom: 1px solid #C8C932;
+}
+.navigation_upload {
+	margin: 5px 0px 20px 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.navigation_upload li {
+	padding: 0px 10px;
+	display: inline;
+	color: #FFF;
+}
+.navigation_upload li a, .navigation_upload li a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+.navigation_upload li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.liste_documents_serveur {
+	margin: 15px 30px;
+	padding: 0px;
+	list-style-type: none;
+}
+.liste_documents_serveur li {
+	padding: 10px;
+	border-bottom: 1px solid #C8C932;
+	color: #A8005D;
+}
+.liste_documents_serveur li a, .liste_documents_serveur li a:visited {
+	color: #A8005D;
+	text-decoration: none;
+}
+.liste_documents_serveur li a:hover {
+	color: #A8005D;
+	text-decoration: underline;
+}
+
+.taille_image {
+	padding: 0px 15px;
+	color: #666;
+}
+
+#form_upload {
+	margin: 20px auto;
+	padding: 0px;
+	width: 700px;
+	background-color: #FFF;
+}
+#form_upload form {
+	margin: 0px;
+	padding: 0px;
+}
+#form_upload fieldset {
+	margin: 0px 5px;
+	padding: 5px;
+	border: 0px;
+}
+#form_upload legend {
+	display: none;
+}
+#form_upload h6 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	color: #903;
+	margin: 0px 30px 5px 50px;
+	padding: 5px 0px;
+	text-align: center;
+}
+.txtupload {
+	margin: 0px 40px;
+	padding: 0px;
+}
+#form_upload div {
+	clear: both;
+	width: 650px;
+	margin: 10px 5px;
+	padding: 5px;
+}
+#form_upload .arrondi {
+	margin: 0px;
+	padding: 0px;
+}
+#form_upload .intitule {
+	float: left;
+	width: 200px;
+	text-align: right;
+	padding: 3px 5px;
+	margin: 0px;
+}
+#form_upload .balise {
+	float: left;
+	width: 420px;
+	text-align: left;
+	padding: 0px 5px -5px 5px;
+	margin: 0px;
+}
+#form_upload .astuce {
+	float: left;
+	width: 400px;
+	text-align: left;
+	padding: 3px 8px;
+	margin: 5px 5px 15px 210px;
+	font-size: 11px;
+	color: #666;
+	font-style: italic;
+	background-color: #F5F5DC;
+}
+#form_upload .champs_upload {
+	width: 380px;
+	padding: 1px 0px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit {
+	background-color: #BD005F;
+	padding: 5px 10px;
+	text-align: center;
+	color: #FFF;
+	border: 3px solid #8E0F5F;
+	text-transform: uppercase;
+}
+
+#spacer {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	border: 0px;
+}

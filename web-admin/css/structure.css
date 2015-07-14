@@ -1,0 +1,38 @@
+/* ----------------   Balises  HTML   -------------------- */
+body {
+	background-color: #DED7C0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-image: url(../images/background-admin2.png);
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* ------------   Navigation  Principale  ------------- */
+#nav_principale {
+	margin: 35px 10px 20px 0px;
+	padding: 5px;
+}
+
+
+/* ------------   Navigation  Secondaire  ------------- */
+#nav_secondaire {
+	float: left;
+	width: 140px;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+/* ------------   Contenu  central   ------------- */
+#corps_page {
+	float: left;
+	width: 800px;
+	margin: 30px 0px;
+	padding: 0px;
+	background-color: #FFF;
+}

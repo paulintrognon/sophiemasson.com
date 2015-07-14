@@ -1,0 +1,258 @@
+/* ----------------   Balises  HTML   -------------------- */
+
+
+/* ------------   Navigation  Principale  ------------- */
+#nav_principale ul {
+	list-style-type: none;
+	margin: 0px 0px 7px 0px;
+	padding: 3px 0px;
+}
+#nav_principale li {
+	display: inline;
+	margin: 0px;
+	padding: 0px 10px;
+	border-right: 1px solid #FF82C7;
+}
+#nav_principale li a, #nav_principale li a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+#nav_principale li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+/* ------------   Navigation  Secondaire  ------------- */
+#nav_secondaire ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav_secondaire li {
+	margin: 15px 5px;
+	padding: 15px 10px;
+	background-color: #FFF;
+	border: 3px solid #FFF;
+	background-image: url(../images/degrade-jaune.jpg);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+#nav_secondaire li a, #nav_secondaire li a:visited, #nav_secondaire li a:hover {
+	color: #970053;
+	text-decoration: none;
+}
+#nav_secondaire li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+
+
+/* ------------   Contenu  central   ------------- */
+
+.titre_page {
+	margin: 0px 30px 10px 30px;
+	padding: 5px 0px;
+	border-bottom: 1px solid #C8C932;
+}
+.titre_page h1 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #A8005D;
+	margin: 10px 20px;
+}
+
+.bt_imprimer {
+	float: right;
+	width: 60px;
+	margin: 0;
+	padding: 0px 5px;
+}
+.bt_imprimer img {
+	border: 0px;
+}
+
+.txt_record {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 30px 10px 30px;
+	padding: 5px;
+	text-align: center;
+}
+.succes {
+	color: #FFF;
+	background-color: #2FBF30;
+}
+
+.error {
+	color: #FFF;
+	background-color: #C00;
+}
+
+#corps_page div {
+	clear: both;
+	margin: Opx;
+	padding: 5px;
+}
+#corps_page table {
+	width: 760px;
+	margin: 0px 30px;
+}
+#corps_page table caption {
+	display: none;
+}
+#corps_page th {
+	display: none;
+}
+#corps_page td {
+	height: 40px;
+	border-right: 1px solid #FFF;
+	padding: 7px;
+	vertical-align: top;
+}
+#corps_page td img {
+	border: 0px;
+}
+
+.largeur_colonne_bouton {
+	width: 50px;
+}
+
+/* formulaire */
+.intercalaire {
+	clear: both;
+	margin: 20px 50px 10px 100px;
+	padding: 3px 10px;
+	color: #BD005F;
+	border-bottom: 1px solid #BD005F;
+	font-weight: bold;
+}
+.intitule {
+	float: left;
+	width: 160px;
+	text-align: right;
+	padding: 3px 5px;
+	margin: 0px;
+}
+.balise {
+	float: left;
+	width: 600px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+}
+.balise img {
+	border: 1px solid #CCC;
+	margin: 0px 5px 0px 0px;
+}
+.astuce {
+	float: left;
+	text-align: left;
+	background-color: #F5F5DC;
+	padding: 5px 10px;
+	margin: 5px 30px 5px 180px;
+	font-size: 11px;
+	font-style: italic;
+	color: #666;
+}
+.champs {
+	width: 580px;
+	padding: 1px 0px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.champsdate {
+	padding: 1px 0px 1px 3px;
+	margin: 0px 15px 0px 0px;
+	width: 150px;
+}
+.une_ligne {
+	margin: 10px 40px;
+	padding: 0px;
+}
+.image_arrondi {
+	margin: 0px;
+	padding: 0px;
+}
+.txtintro {
+	margin: 10px 30px 10px 40px;
+	padding: 0px;
+}
+.submit {
+	background-color: #BD005F;
+	padding: 5px 10px;
+	text-align: center;
+	color: #FFF;
+	border: 3px solid #8E0F5F;
+	text-transform: uppercase;
+}
+
+
+#spacer_page {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	border: 0px;
+}
+
+
+
+#suppression {
+	margin: 10px 30px;
+	padding: 0px;
+}
+#suppression form {
+	margin: 0px;
+	padding: 0px;
+}
+#suppression fieldset {
+	margin: 0px;
+	padding: 0px 30px;
+	border: 0px;
+}
+#suppression legend {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #A8005D;
+}
+
+
+.form_recherche {
+	margin: 10px 30px;
+	padding: 5px;
+	border: 0px;
+	background-color: #F5F5DC;
+}
+.form_recherche legend {
+	color: #8E0F5F;
+	margin: 0px;
+	padding: 0px;
+}
+.submit_search {
+	background-color: #F5F5DC;
+	color: #A8005D;
+	text-transform: uppercase;
+	border: 0px;
+}
+
+
+.liste_flux_rss {
+	margin: 30px 60px;
+	padding: 0px;
+	list-style-type: none;
+}
+.liste_flux_rss li {
+	padding: 10px 15px;
+	margin: 0px;
+	border-bottom: 1px solid #CCC;
+}
+.liste_flux_rss li a, .liste_flux_rss li a:visited {
+	color: #8E0F5F;
+	text-decoration: none;
+}
+.liste_flux_rss li a:hover {
+	color: #8E0F5F;
+	text-decoration: underline;
+}

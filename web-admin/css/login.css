@@ -1,0 +1,64 @@
+/* -------------   Formulaire  Identification  ------------- */
+#form_identif {
+	width: 700px;
+	margin: 150px auto; /* moitié de la hauteur */
+	padding: 0px;
+	background-color: #FFF;
+}
+#form_identif p {
+	margin: 0px;
+	padding: 0px;
+}
+#form_identif h4 {
+	margin: 20px;
+	padding: 5px 10px;
+	text-align: center;
+	background-color: #C5208D;
+	color: #FFF;
+	font-weight: normal;
+	font-size: 15px;
+}
+#form_identif fieldset {
+	border: 0px;
+	width: 600px;
+	background-image: url(../images/version-admin-1-6.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+#form_identif legend {
+	color: #A8005D;
+	margin: 0px 10px 10px 50px;
+	font-size: 18px;
+}
+#form_identif fieldset div {
+	width: 350px;
+	margin: 0px;
+	padding: 5px 300px 5px 5px;
+	text-align: right;
+}
+.champslogin {
+	width: 200px;
+	padding: 1px 0px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.submitlogin {
+	background-color: #BD005F;
+	padding: 5px 10px;
+	text-align: center;
+	color: #FFF;
+	border: 3px solid #8E0F5F;
+	text-transform: uppercase;
+}
+.oubli_pword {
+	margin: 15px 80px;
+	padding: 0px;
+}
+.oubli_pword a, .oubli_pword a:visited {
+	color: #A8005D;
+	text-decoration: none;
+}
+.oubli_pword a:hover {
+	color: #FF7F50;
+	text-decoration: underline;
+}

@@ -1,0 +1,208 @@
+body {
+	background-color: #DED7C0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000;
+	background-image:  url(../images/background-admin.png);
+	background-position: top left;
+	background-repeat: repeat-x;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#nav_principale {
+	margin: 35px 10px 20px 0px;
+	padding: 5px;
+}
+#nav_principale ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav_principale li {
+	display: inline;
+	margin: 0px;
+	padding: 0px 15px;
+	border-right: 1px solid #FF82C7;
+}
+#nav_principale li a, #nav_principale li a:visited, #nav_principale li a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+#nav_secondaire {
+	float: left;
+	width: 190px;
+	margin: 10px;
+	padding: 5px;
+}
+#nav_secondaire ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav_secondaire li {
+	margin: 15px 5px;
+	padding: 15px 10px;
+	background-color: #FFF;
+	border: 3px solid #FFF;
+	background-image:  url(../images/fond-colonne-extranet.gif);
+	background-position: top;
+	background-repeat: repeat-x;
+}
+#nav_secondaire li a, #nav_secondaire li a:visited, #nav_secondaire li a:hover {
+	color: #970053;
+	text-decoration: none;
+}
+
+
+#corps_page {
+	float: left;
+	width: 700px;
+	margin: 15px 10px;
+	padding: 0px;
+	background-color: #FFF;
+}
+#corps_page h1 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #A8005D;
+	margin: 0px 30px 10px 30px;
+	padding: 5px 0px;
+	border-bottom: 1px solid #C8C932;
+}
+#corps_page h6 {
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	margin: 20px 30px 10px 30px;
+	padding: 5px 0px;
+}
+
+#corps_page div {
+	clear: both;
+	margin: 10px 5px;
+	padding: 5px;
+}
+.ligne_champs {
+	margin: 10px 5px 5px 40px;
+	padding: 0px;
+}
+.arrondis {
+	margin: 0px;
+	padding: 0px;
+}
+#corps_page table {
+	width: 640px;
+	margin: 0px 30px;
+	border-collapse: collapse;
+}
+#corps_page table caption {
+	display: none;
+}
+#corps_page th {
+	display: none;
+}
+#corps_page td {
+	height: 40px;
+	border-bottom: 1px solid #C8C932;
+	padding: 0px 5px;
+}
+#corps_page td img {
+	border: 0px;
+}
+.intitule {
+	float: left;
+	width: 150px;
+	text-align: right;
+	padding: 3px 5px;
+	margin: 0px;
+}
+.balise {
+	float: left;
+	width: 360px;
+	text-align: left;
+	padding: 0px 5px -5px 5px;
+	margin: 0px;
+}
+.astuce {
+	float: left;
+	width: 120px;
+	text-align: left;
+	padding: 0px 5px;
+	margin: 0px;
+	font-size: 11px;
+	color: #666;
+}
+.champs {
+	width: 340px;
+	padding: 1px 0px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.champsdate {
+	padding: 1px 0px 1px 3px;
+	margin: 0px 15px 0px 0px;
+}
+
+
+#suppression {
+	margin: 10px 30px;
+	padding: 0px;
+}
+#suppression form {
+	margin: 0px;
+	padding: 0px;
+}
+#suppression fieldset {
+	margin: 0px;
+	padding: 0px 30px;
+	border: 0px;
+}
+#suppression legend {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #A8005D;
+}
+
+#spacer_page {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	border: 0px;
+}
+
+
+#form_identif {
+	position:absolute;
+	left: 50%; 
+	top: 150px;
+	width: 700px;
+	margin: 0px 0px 30px -350px; /* moitié de la hauteur */
+	padding: 0px;
+	background-color: #FFF;
+}
+#form_identif p {
+	margin: 0px;
+	padding: 0px;
+}
+#form_identif fieldset {
+	border: 0px;
+	width: 700px;
+}
+#form_identif legend {
+	color: #A8005D;
+	margin: 0px 10px 10px 50px;
+	font-size: 18px;
+}
+#form_identif fieldset div {
+	clear: both;
+	width: 600px;
+	margin: 0px;
+	padding: 5px 0px 5px 5px;
+}
+.txtupload {
+	margin: 10px 30px 20px 50px;
+	padding: 0px;
+}

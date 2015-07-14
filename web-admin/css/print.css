@@ -1,0 +1,175 @@
+/* ----------------   Balises  HTML   -------------------- */
+
+
+/* ------------   Navigation  Principale  ------------- */
+#nav_principale ul {
+	display: none;
+}
+
+
+
+/* ------------   Navigation  Secondaire  ------------- */
+#nav_secondaire ul {
+	display: none;
+}
+
+
+
+
+/* ------------   Contenu  central   ------------- */
+
+.titre_page {
+	margin: 0px 30px 10px 30px;
+	padding: 5px 0px;
+	border-bottom: 1px solid #C8C932;
+}
+.titre_page h1 {
+	font-size: 20px;
+	font-weight: normal;
+	color: #A8005D;
+	margin: 10px 20px;
+}
+
+.bt_imprimer {
+	float: right;
+	width: 60px;
+	margin: 0;
+	padding: 0px 5px;
+}
+.bt_imprimer img {
+	border: 0px;
+}
+
+.txt_record {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0px 30px 10px 30px;
+	padding: 5px;
+	text-align: center;
+}
+.succes {
+	color: #FFF;
+	background-color: #2FBF30;
+}
+
+.error {
+	color: #FFF;
+	background-color: #C00;
+}
+
+#corps_page div {
+	clear: both;
+	margin: 10px 5px;
+	padding: 5px;
+}
+#corps_page table {
+	width: 800px;
+	margin: 0px 30px;
+}
+#corps_page table caption {
+	display: none;
+}
+#corps_page th {
+	display: none;
+}
+#corps_page td {
+	height: 40px;
+	border-right: 1px solid #FFF;
+	padding: 7px;
+	vertical-align: top;
+}
+#corps_page td img {
+	border: 0px;
+}
+
+
+/* formulaire */
+.intitule {
+	float: left;
+	width: 160px;
+	text-align: right;
+	padding: 3px 5px;
+	margin: 0px;
+}
+.balise {
+	float: left;
+	width: 620px;
+	text-align: left;
+	padding: 0px 10px;
+	margin: 0px;
+}
+.balise img {
+	border: 1px solid #CCC;
+	margin: 0px 5px 0px 0px;
+}
+.astuce {
+	float: left;
+	text-align: left;
+	background-color: #F5F5DC;
+	padding: 5px 10px;
+	margin: 5px 30px 10px 180px;
+	font-size: 11px;
+	font-style: italic;
+	color: #666;
+}
+.champs {
+	width: 580px;
+	padding: 1px 0px 1px 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.champsdate {
+	padding: 1px 0px 1px 3px;
+	margin: 0px 15px 0px 0px;
+	width: 150px;
+}
+.une_ligne {
+	margin: 10px 40px;
+	padding: 0px;
+}
+.image_arrondi {
+	margin: 0px;
+	padding: 0px;
+}
+.txtintro {
+	margin: 10px 30px 10px 40px;
+	padding: 0px;
+}
+.submit {
+	background-color: #BD005F;
+	padding: 5px 10px;
+	text-align: center;
+	color: #FFF;
+	border: 3px solid #E2CF1F;
+	text-transform: uppercase;
+}
+
+
+#spacer_page {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 5px;
+	border: 0px;
+}
+
+
+
+#suppression {
+	margin: 10px 30px;
+	padding: 0px;
+}
+#suppression form {
+	margin: 0px;
+	padding: 0px;
+}
+#suppression fieldset {
+	margin: 0px;
+	padding: 0px 30px;
+	border: 0px;
+}
+#suppression legend {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #A8005D;
+}
+
