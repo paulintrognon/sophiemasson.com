@@ -7,17 +7,17 @@
 // --------------------------------------------------------------------------------
 // -------------------------        Phrases        --------------------------------
 // --------------------------------------------------------------------------------
-$phrase['AdresseMasson'] = "102 boulevard Montesquieu";
+$phrase['AdresseMasson'] = "102 loft D2 Boulevard Montesquieu 59100 ROUBAIX - FRANCE";
 $phrase['ChampsObligatoires'] = "You must fill in all the Required fields to send your message";
 $phrase['Copyrights'] = "copyright (c) Sophie Masson - all rights reserved";
 $phrase['CreationSurMesure'] = "All our creations are made to measure according to your choices. Donít hesitate to indicate your models, colours and patterns  in order realize your  crockery (porcelain tableware) to measure.";
 $phrase['DemandeInfoCommande'] = "Ask for information, order ";
 $phrase['EmailIncorrect'] = "Your e-mail address is incorrect. Your message cannot be sent";
-$phrase['footer'] = "Sophie Masson, Porcelaine peinte à la main personnalisée  - Édition de vaisselle - tél. +33 (0)6 76 123 386 - ARTHISTHEA  RCS TOULOUSE 488 987 181";
+$phrase['footer'] = "sophie masson & delobal";
 $phrase['IntroSite'] = "Designer of  hand painted china crockery as well as various objects for your table  Sophie Masson offers you to discover her world, her creations and current news";
 $phrase['MailMasson'] = "sophie-masson@orange.fr";
 $phrase['MentionsCreation'] = "Conception : Christophe Bonamis";
-$phrase['MentionsDeveloppement'] = "Development : Arnaud Meunier";
+$phrase['MentionsDeveloppement'] = "Tailor made hand painted china";
 $phrase['MentionsPhotos'] = "Photos : Renaud Wailliez";
 $phrase['MessageEnvoye'] = "Your message has been sent.";
 $phrase['MobMasson'] = "Mob : +33 (0)6 76 123 386";

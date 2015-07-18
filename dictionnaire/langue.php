@@ -7,18 +7,18 @@
 // --------------------------------------------------------------------------------
 // -------------------------        Phrases        --------------------------------
 // --------------------------------------------------------------------------------
-$phrase['AdresseMasson'] = "102 boulevard Montesquieu";
+$phrase['AdresseMasson'] = "102 loft D2 Boulevard Montesquieu 59100 ROUBAIX";
 $phrase['AucunPaiement'] = "Aucun paiement ne correspond à ces critères.";
 $phrase['ChampsObligatoires'] = "Vous devez remplir tous les champs obligatoires pour envoyer votre message.";
 $phrase['Copyrights'] = "copyright (c) Sophie Masson - all rights reserved";
 $phrase['CreationSurMesure'] = "Toutes nos créations sont réalisées sur mesure en fonction de vos choix. N'hésitez pas à nous indiquer vos modèles, couleurs et motifs pour que nous puissions réaliser votre vaisselle sur mesure.";
 $phrase['DemandeInfoCommande'] = "Demande d'information, commande, ... ";
 $phrase['EmailIncorrect'] = "Votre adresse email est incorrecte. Votre message ne peut être envoyé.";
-$phrase['footer'] = "Sophie Masson, Porcelaine peinte à la main personnalisée  - Édition de vaisselle - tél. 06 76 123 386 - ARTHISTHEA  RCS TOULOUSE 488 987 181";
+$phrase['footer'] = "sophie masson & delobal";
 $phrase['IntroSite'] = "Créatrice de vaisselles et d'objets d'art de la table en porcelaine peinte à la main, Sophie Masson vous propose de découvrir son univers, ses créations et son actualité.";
 $phrase['MailMasson'] = "sophie-masson@orange.fr";
 $phrase['MentionsCreation'] = "Conception : Christophe Bonamis";
-$phrase['MentionsDeveloppement'] = "Développement : Arnaud Meunier";
+$phrase['MentionsDeveloppement'] = "Porcelaine sur mesure - Édition de vaisselle.";
 $phrase['MentionsPhotos'] = "Photos : Renaud Wailliez";
 $phrase['MessageEnvoye'] = "Votre message a bien été envoyé.";
 $phrase['MobMasson'] = "Mob : 06 76 123 386";

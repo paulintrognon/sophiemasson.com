@@ -193,7 +193,7 @@ function creer_templates($section,$item,$parametres,$langue)
 	// -----------------------------------------------------------------------
 	// -----------------  En-tête de page
 	// -----------------  Balises Meta
-	$lien_css = array(	"masson-v2.css" => "screen" );
+	$lien_css = array(	"masson-v3.css" => "screen" );
 	$head = ecrire_balise_head($meta_title,"","",$lien_css,"");					
 
 
