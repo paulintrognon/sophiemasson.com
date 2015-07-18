@@ -31,3 +31,7 @@
         Gilles de Chabaneix, Patrick Vanrobays, Véronique Mery, Christian Lacroix...
     </p>
 </div>
+
+<p>
+    Elles se sont trouvées pour un projet commun qui verra le jour prochainement.
+</p>
