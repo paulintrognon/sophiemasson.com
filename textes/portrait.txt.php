@@ -3,6 +3,7 @@
     <img src="http://www.sophiemasson.com/images/portrait_sophie_masson_porcelain.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
 
     <p class="portrait-text">
+        <span class="name">Sophie Masson</span><br />
         Styliste formée à Paris au cours Bercot, Sophie parfait
         son expérience dans les bureaux de tendances parisiens.<br />
         En parallèle, elle décide de suivre une formation de décoratrice sur porcelaine.
@@ -21,6 +22,7 @@
     <img src="http://www.sophiemasson.com/images/portrait_valerie_delobal.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
     
     <p class="portrait-text">
+        <span class="name">Valérie Delobal</span><br />
         Depuis sa plus tendre enfance, Valérie parcourt le monde
         à la recherche du beau.<br />
         Des rencontres, des voyages inspirants ont peaufiné son sens de l'esthétisme.<br />

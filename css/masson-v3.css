@@ -195,6 +195,10 @@ body {
     font-size: 13px;
 }
 
+.portrait-text .name {
+    color: #111;
+}
+
 .portrait-perso img {
     width: 40%;
 }
