@@ -7,7 +7,7 @@
         son expérience dans les bureaux de tendances parisiens.<br />
         En parallèle, elle décide de suivre une formation de décoratrice sur porcelaine.
         Passionée, elle se perfectionne à Limoges et s'affirme
-        auprès des professesionnels et particuliers.<br />
+        auprès des professionnels et particuliers.<br />
         Sa créativité est vite repérée par les décorateurs et journalistes.<br />
         Elle illustre des sujets pour la presse déco, crée avec ses clients des services
         sur mesure et propose aux boutiques et décorateurs des collections exclusives

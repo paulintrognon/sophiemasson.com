@@ -1,6 +1,6 @@
 <h2>
     Page en construction<br/>
-    <a href="/porcelaine/contact">Contactez nous</a> pour la mise en place de votre projet personalisé
+    <a href="/porcelaine/contact">Contactez nous</a> pour la mise en place de votre projet personnalisé
 </h2>
 
 <ul>
