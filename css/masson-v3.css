@@ -55,6 +55,7 @@ body {
     margin: 0px;
     padding: 0px;
     text-align: left;
+    position: relative;
 }
 
 
@@ -256,8 +257,39 @@ body {
 }
 
 #tailor-made {
-    width: 650px;
     margin: auto;
+    padding-top: 20px;
+}
+
+#tailor-made h2 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #AAA;
+}
+
+#tailor-made h2 a, #tailor-made h2 a:visited, #tailor-made h2 a:focus {
+    color: #AAA;
+    text-decoration: none;
+}
+
+#tailor-made h2 a:hover {
+    color: #888;
+}
+
+#tailor-made ul {
+    margin-top: 100px;
+    padding: 0;
+}
+
+#tailor-made li {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+#tailor-made .end {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
 }
 
 .intro_vaisselle {

@@ -69,15 +69,12 @@ function creer_templates($section,$item,$parametres,$langue)
                 $body .= '<div id="tailor-made">';
                     if ($langue == "Fr")
                     {
-                            $body .= lire_fichier('formes.txt.php','textes/');
+                        $body .= lire_fichier('tailor-made.php','textes/');
                     }
                     else
                     {
-                            $body .= lire_fichier('formes-en.txt.php','textes/');
+                        $body .= lire_fichier('tailor-made-en.php','textes/');
                     }
-                    $body .= ecrire_liste_formes();			
-                    $body .= '<div class="spacer">&nbsp;</div>';
-                    $meta_title = $title['PageFormes'];
                     $body .= '</div>';
             break;
 
