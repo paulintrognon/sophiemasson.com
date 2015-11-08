@@ -8,11 +8,11 @@
     <li>Restaurateurs</li>
     <li>Hotellerie</li>
     <li>Evènementiel</li>
-    <li>Styliste</li>
-    <li>Déco</li>
+    <li>Stylistes</li>
+    <li>Décorateurs</li>
     <li>Particuliers...</li>
 </ul>
 
 <p class="end">
-    Marquer son appatenance, sa reconnaissance, sa différence... Nous créons pour et avec vous votre porcelaine.
+    Marquer son appartenance, sa reconnaissance, sa différence... Nous créons pour et avec vous votre porcelaine.
 </p>

@@ -7,7 +7,7 @@
         Styliste formée à Paris au cours Bercot, Sophie parfait
         son expérience dans les bureaux de tendances parisiens.<br />
         En parallèle, elle décide de suivre une formation de décoratrice sur porcelaine.
-        Passionée, elle se perfectionne à Limoges et s'affirme
+        Passionnée, elle se perfectionne à Limoges et s'affirme
         auprès des professionnels et particuliers.<br />
         Sa créativité est vite repérée par les décorateurs et journalistes.<br />
         Elle illustre des sujets pour la presse déco, crée avec ses clients des services
