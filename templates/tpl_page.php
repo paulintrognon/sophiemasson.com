@@ -161,6 +161,7 @@ function creer_templates($section,$item,$parametres,$langue)
                     {
                             $valeurs = array();
                     }
+                    
                     $body .= ecrire_form_contact($valeurs);
                     $body .= '</div>';
                     $meta_title = $title['PageContact'];
@@ -190,7 +191,7 @@ function creer_templates($section,$item,$parametres,$langue)
 	// -----------------------------------------------------------------------
 	// -----------------  En-tête de page
 	// -----------------  Balises Meta
-	$lien_css = array(	"masson-v3.css" => "screen" );
+	$lien_css = array(	"masson-v4.css" => "screen" );
 	$head = ecrire_balise_head($meta_title,"","",$lien_css,"");					
 
 

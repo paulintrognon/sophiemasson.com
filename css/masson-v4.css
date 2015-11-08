@@ -482,6 +482,16 @@ body {
 }
 
 /* Contact */
+
+.email-contact-sentence {
+    padding: 15px 0px 0px 0px;
+    margin: 0px;
+}
+
+.email-contact-sentence a {
+    color: #6A6A6A;
+}
+
 #form_contact {
     margin: 0px auto;
     padding: 0px;

@@ -165,76 +165,88 @@ function ecrire_actualites($langue)
 
 
 function ecrire_form_contact($valeurs)
-{
-	$phrase = $GLOBALS['phrase'];
-	$mot = $GLOBALS['mot'];
-	
-	$form = '<form name="contact" action="'.$_SERVER['REQUEST_URI'].'" method="post">';
-	$form .= '<fieldset>';
-	$form .= '<legend>'.$phrase['PourMeContacter'].'</legend>';
-	
-	$datas_msg = array(	"name" => "Message",
-											"value" => $valeurs['Message'],
-											"tabindex" => "1",
-											"class" => "champs",
-											"label" => $phrase['VotreMessage'] );
-	$form .= ecrire_balise("textarea",$datas_msg);
-	
-	$datas_nom = array(	"name" => "Nom",
-											"value" => $valeurs['Nom'],
-											"tabindex" => "2",
-											"class" => "champs",
-											"label" => $phrase['VotreNom'] );
-	$form .= ecrire_balise("text",$datas_nom);
-	
-	$datas_adr = array(	"name" => "Adresse",
-											"value" => $valeurs['Adresse'],
-											"tabindex" => "3",
-											"class" => "champs",
-											"label" => $phrase['VotreAdresse'] );
-	$form .= ecrire_balise("text",$datas_adr);
-	
-	$datas_cp = array(	"name" => "CP",
-											"value" => $valeurs['CP'],
-											"tabindex" => "4",
-											"class" => "champs",
-											"label" => $phrase['VotreCP'] );
-	$form .= ecrire_balise("text",$datas_cp);
-	
-	$datas_city = array(	"name" => "Ville",
-												"value" => $valeurs['Ville'],
-												"tabindex" => "5",
-												"class" => "champs",
-												"label" => $phrase['VotreVille'] );
-	$form .= ecrire_balise("text",$datas_city);
+ {
+    $phrase = $GLOBALS['phrase'];
+    $mot = $GLOBALS['mot'];
+    
+    $form = '<p class="email-contact-sentence">Vous pouvez nous contacter directement via <a href="mailto:sophie-masson@orange.fr">sophie-masson@orange.fr</a>,<br />ou en remplissant le formulaire ci-dessous.</p>';
 
-	$datas_tel = array(	"name" => "Tel",
-											"value" => $valeurs['Tel'],
-											"tabindex" => "6",
-											"class" => "champs",
-											"label" => $phrase['VotreTel'] );
-	$form .= ecrire_balise("text",$datas_tel);
-	
-	$datas_mail = array(	"name" => "Email",
-												"value" => $valeurs['Email'],
-												"tabindex" => "7",
-												"class" => "champs",
-												"label" => $phrase['VotreEmail'] );
-	$form .= ecrire_balise("text",$datas_mail);
-	
-	$datas_controle = array(	"name" => "controle",
-														"value" => "contact" );
-	$form .= ecrire_balise("hidden",$datas_controle);
+    $form .= '<form name="contact" action="' . $_SERVER['REQUEST_URI'] . '" method="post">';
+    $form .= '<fieldset>';
+    $form .= '<legend>' . $phrase['PourMeContacter'] . '</legend>';
 
-	$datas_envoi = array(	"name" => "envoi",
-												"value" => $mot['Envoyer'],
-												"tabindex" => "8",
-												"class" => "submit" );
-	$form .= ecrire_balise("submit",$datas_envoi);
-	
-	$form .= '</fieldset>';
-	$form .= '</form>';
-	return $form;
+    $datas_msg = array(
+        "name" => "Message",
+        "value" => $valeurs['Message'],
+        "tabindex" => "1",
+        "class" => "champs",
+        "label" => $phrase['VotreMessage']
+    );
+    $form .= ecrire_balise("textarea", $datas_msg);
+
+    $datas_nom = array(
+        "name" => "Nom",
+        "value" => $valeurs['Nom'],
+        "tabindex" => "2",
+        "class" => "champs",
+        "label" => $phrase['VotreNom']);
+    $form .= ecrire_balise("text", $datas_nom);
+
+    $datas_adr = array(
+        "name" => "Adresse",
+        "value" => $valeurs['Adresse'],
+        "tabindex" => "3",
+        "class" => "champs",
+        "label" => $phrase['VotreAdresse']);
+    $form .= ecrire_balise("text", $datas_adr);
+
+    $datas_cp = array(
+        "name" => "CP",
+        "value" => $valeurs['CP'],
+        "tabindex" => "4",
+        "class" => "champs",
+        "label" => $phrase['VotreCP']);
+    $form .= ecrire_balise("text", $datas_cp);
+
+    $datas_city = array(
+        "name" => "Ville",
+        "value" => $valeurs['Ville'],
+        "tabindex" => "5",
+        "class" => "champs",
+        "label" => $phrase['VotreVille']);
+    $form .= ecrire_balise("text", $datas_city);
+
+    $datas_tel = array(
+        "name" => "Tel",
+        "value" => $valeurs['Tel'],
+        "tabindex" => "6",
+        "class" => "champs",
+        "label" => $phrase['VotreTel']);
+    $form .= ecrire_balise("text", $datas_tel);
+
+    $datas_mail = array(
+        "name" => "Email",
+        "value" => $valeurs['Email'],
+        "tabindex" => "7",
+        "class" => "champs",
+        "label" => $phrase['VotreEmail']);
+    $form .= ecrire_balise("text", $datas_mail);
+
+    $datas_controle = array(
+        "name" => "controle",
+        "value" => "contact");
+    $form .= ecrire_balise("hidden", $datas_controle);
+
+    $datas_envoi = array(
+        "name" => "envoi",
+        "value" => $mot['Envoyer'],
+        "tabindex" => "8",
+        "class" => "submit");
+    $form .= ecrire_balise("submit", $datas_envoi);
+
+    $form .= '</fieldset>';
+    $form .= '</form>';
+    return $form;
 }
 
 
