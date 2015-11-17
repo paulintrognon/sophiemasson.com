@@ -86,7 +86,7 @@ function ecrire_navigation_principale($section)
 	$html .= '<li><a href="'.$lien['Formes'].'" title="'.$title['SurMesure'].'">'.afficher_section($mot['SurMesure'],$section,'formes').'</a></li>';
 	$html .= '<li><a href="'.$lien['Presse'].'" title="'.$title['Presse'].'">'.afficher_section($mot['Presse'],$section,'presse').'</a></li>';
 	$html .= '<li><a href="'.$lien['Portrait'].'" title="'.$title['Portrait'].'">'.afficher_section($mot['Portrait'],$section,'portrait').'</a></li>';
-	$html .= '<li><a href="'.$lien['Services'].'" title="'.$title['Services'].'">'.afficher_section($mot['Services'],$section,'services').'</a></li>';
+//	$html .= '<li><a href="'.$lien['Services'].'" title="'.$title['Services'].'">'.afficher_section($mot['Services'],$section,'services').'</a></li>';
 //	$html .= '<li><a href="'.$lien['Actualites'].'" title="'.$title['Actualites'].'">'.afficher_section($mot['Actualites'],$section,'actualite').'</a></li>';
 	$html .= '<li><a href="http://sophiemasson.blogspot.com" title="'.$title['Actualites'].'" target="_blank">blog</a></li>';
 	$html .= '<li><a href="'.$lien['Contact'].'" title="'.$title['Contact'].'">'.afficher_section($mot['Contact'],$section,'contact').'</a></li>';
