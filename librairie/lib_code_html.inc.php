@@ -53,7 +53,7 @@ function ecrire_slogan()
 	$title = $GLOBALS['title'];
 	
 	$html = '<div id="logo">';
-	$html .= '<h1 id="website-title"><a href="'.URL.'" title="'.$title['LogoSite'].'">sophie masson & delobal</a></h1>';
+	$html .= '<h1 id="website-title"><a href="'.URL.'" title="'.$title['LogoSite'].'">sophie masson</a></h1>';
 	$html .= '<h2 id="website-subtitle">porcelaine</h2>';
 	$html .= '</div>';
 	return $html;

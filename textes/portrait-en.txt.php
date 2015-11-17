@@ -15,19 +15,3 @@
         les Fées d'Herbe, Elle déco...
     </p>
 </div>
-
-<div class="portrait-perso" id="portrait-valerie">
-    
-    <img src="http://www.sophiemasson.com/images/portrait_valerie_delobal.jpg" alt="Portrait de Sophie Masson, créatrice de vaisselle en porcelaine peinte à la main." />
-    
-    <p class="portrait-text">
-        Depuis sa plus tendre enfance, Valérie parcourt le monde<br />
-        à la recherche du beau.<br />
-        Des rencontres, des voyages inspirants ont peaufiné son sens de l'esthétisme.<br />
-        Après un passage dans le monde de la mode, et toujours avide de<br />
-        nouveautés, Valérie s'affirme dans le domaine de la communication.<br />
-        Devenue Directeur Artistique en Agence,<br />
-        Valérie collabore avec des grands noms de la déco:<br />
-        Gilles de Chabaneix, Patrick Vanrobays, Véronique Mery, Christian Lacroix...
-    </p>
-</div>
