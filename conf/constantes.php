@@ -33,10 +33,9 @@ define("AUTHOR","Arnaud Meunier");
 define("LANGUE","Fr");
 define("CHARSET","text/html; charset=ISO-8859-1");
 define("ROBOTS","index, follow, all");
-define("TITRE","Sophie Masson, porcelaine peinte à la main sur mesure Lille Paris");
-define("KEYWORDS","Sophie Masson, peintre, peinture, vaisselle, porcelaine, lille, assiette, tasse, bol, plateau, création, créatrice, porcelaine peinte, sur-mesure, vente, création");
-define("DESCRIPTION","Sophie Masson, créatrice - peintre située à Lille et Paris. Peinture sur vaisselle en porcelaine : assiette, tasse à café, bol,
-plateau, vase, déjeuner, etc. Vente de création sur-mesure.");
+define("TITRE","Sophie Masson, porcelaine personnalisée Lille Paris");
+define("KEYWORDS","Sophie Masson, vaisselle, porcelaine, lille, paris, mugs, assiette, tasse, bol, plateau, création, créatrice, personnalisation, sur-mesure, vente");
+define("DESCRIPTION","Sophie Masson, créatrice de services en porcelaine personnalisés / édition sur porcelaine, Lille et Paris. Art de la table, mugs, assiettes, tasses, cafés, bols, vases, déjeuners...");
 define("FROM_NAME", "Sophie Masson");
 define("FROM_EMAIL", "sophie-masson@orange.fr");
 define("TO_EMAIL", "sophie-masson@orange.fr");
