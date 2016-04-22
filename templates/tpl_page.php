@@ -39,7 +39,7 @@ function creer_templates($section,$item,$parametres,$langue)
             $class = 'main-home';
         }
         
-	$body .= "<div id=\"main\" class=\"$class\">";
+        $body .= '<div id="main" class="'.$class.'">';
 	switch($section)
 	{
             case "portrait":
@@ -210,3 +210,5 @@ function creer_templates($section,$item,$parametres,$langue)
 function isCollectionPage($item, $parametres) {
     return $item || $parametres;
 }
+
+?>
