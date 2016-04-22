@@ -36,5 +36,5 @@ define("NOM_EMAIL","Sophie Masson");
 define("NOM_SITE","Sophie Masson");
 define("TITLE","Espace d'administration du site ");
 define("ROBOTS","index, follow, all");
-define("MIN_SIZE","100");
+define("MIN_SIZE","200");
 ?>
