@@ -471,7 +471,7 @@ body {
     text-align: center;
     width: 700px;
 }
-.fiche_produit div img {
+.fiche_produit div img.product {
     border: 1px solid #8F7A7B;
 }
 .fiche_produit h1, .fiche_produit p {
@@ -488,6 +488,22 @@ body {
 .fiche_produit p a:hover {
     color: #8F7A7B;
     text-decoration: underline;
+}
+
+.fiche_produit .product-arrow img {
+    width: 35px;
+}
+
+.fiche_produit .product-arrow a {
+    text-decoration: none;
+}
+
+.fiche_produit .product-arrow.product-arrow-previous {
+    padding-right: 10px;
+}
+
+.fiche_produit .product-arrow.product-arrow-next {
+    padding-left: 10px;
 }
 
 /* Contact */

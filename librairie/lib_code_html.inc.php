@@ -389,24 +389,53 @@ function ecrire_fiche_produit($item,$langue,$parametres)
 	$lien = $GLOBALS['lien'];
 	
 	$requete = rq_fiche_produit($item,$langue);
+        $requeteNext = rq_fiche_produit_next($item,$parametres,$langue);
+        $requetePrevious = rq_fiche_produit_previous($item,$parametres,$langue);
 	connexion_base(SERVEUR,HOST,PASSWORD,BASE);
 	$result = mysql_query($requete) or die();
+	$next = mysql_query($requeteNext) or die('next');
+	$previous = mysql_query($requetePrevious) or die('prev');
 	connexion_end();
+        
+        $row = getFirstResult($result);
+        if (!$row) {
+            return '';
+        }
+        
+        $html = '<div class="fiche_produit" id="product-detail">';
+        //$html .= '<p class=""><a href="'.$lien['Collection'].$parametres.'/0" title="">'.$phrase['RetourCatalogue'].'</a></p>';
+        $html .= '<div>';
+        $html .= createArrowLink($previous, $lien, $parametres, 'previous');
+        $html .= '<img class="product" src="'.URL_IMG.$row['Photo'].'" alt="'.affichage_donnee($row['MostCles']).'" />';
+        $html .= createArrowLink($next, $lien, $parametres, 'next');
+        
+        $html .= '</div>';
+        
+        $html .= '<h1>'.affichage_donnee($row['Nom']).'</h1>';
+        $html .= '<p>'.affichage_donnee($row['Description']).'</p>';
+        $html .= '<p>'.$mot['Prix'].' : '.$row['Prix'].' euros TTC</p>';
+        $html .= '<p><a href="'.$lien['Contact'].'">'.$phrase['PourAcheterCetCreation'].'</a> | ';
+        $html .= '<a href="'.$lien['Formes'].'">'.$phrase['PourPersonnaliserCetteCreation'].'</a></p>';
+        $html .= '</div>';
+        
+    return $html;
+}
 
-	if (mysql_num_rows($result) > 0)
-	{
-		$row = mysql_fetch_array($result);
-		$html = '<div class="fiche_produit">';
-		//$html .= '<p class=""><a href="'.$lien['Collection'].$parametres.'/0" title="">'.$phrase['RetourCatalogue'].'</a></p>';
-		$html .= '<div><img src="'.URL_IMG.$row['Photo'].'" alt="'.affichage_donnee($row['MostCles']).'" /></div>';
-		$html .= '<h1>'.affichage_donnee($row['Nom']).'</h1>';
-		$html .= '<p>'.affichage_donnee($row['Description']).'</p>';
-		$html .= '<p>'.$mot['Prix'].' : '.$row['Prix'].' euros TTC</p>';
-		$html .= '<p><a href="'.$lien['Contact'].'">'.$phrase['PourAcheterCetCreation'].'</a> | ';
-		$html .= '<a href="'.$lien['Formes'].'">'.$phrase['PourPersonnaliserCetteCreation'].'</a></p>';
-		$html .= '</div>';
-		return $html;
-	}
+function getFirstResult($sqlResult) {
+    if (mysql_num_rows($sqlResult) == 0) {
+        return false;
+    }
+    return mysql_fetch_array($sqlResult);
+}
+
+function createArrowLink($sqlResult, $lien, $parametres, $type) {
+    $row = getFirstResult($sqlResult);
+    if (!$row) {
+        return '';
+    }
+    return '<span class="product-arrow product-arrow-'.$type.'"><a href="'.$lien['Collection'].$parametres.'/'.$row['ID'].'#product-detail" title="'.$row['Nom'].'"> '
+    . '<img src="/images/arrow-'.$type.'.png" alt="'.$type.'" />'
+    . ' </a></span>';
 }
 
 function ecrire_catalogue($langue,$parametres)

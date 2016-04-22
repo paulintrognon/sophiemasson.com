@@ -82,6 +82,20 @@ function rq_fiche_produit($item,$langue)
 	return $query;
 }
 
+function rq_fiche_produit_previous($item, $category, $langue) {
+    $query = "SELECT ID, Nom".$langue." AS Nom ";
+    $query .= "FROM produits ";
+    $query .= "WHERE Affichage='yes' AND Theme = ".(int)$category." AND ID=(SELECT MAX(id) FROM produits WHERE Affichage='yes' AND ID < ".(int)$item." AND Theme = ".(int)$category." ) ";    
+    return $query;
+}
+
+function rq_fiche_produit_next($item, $category, $langue) {
+    $query = "SELECT ID, Nom".$langue." AS Nom ";
+    $query .= "FROM produits ";
+    $query .= "WHERE Affichage='yes' AND Theme = ".(int)$category." AND ID=(SELECT MIN(id) FROM produits WHERE Affichage='yes' AND ID > ".(int)$item." AND Theme = ".(int)$category." ) ";
+    return $query;
+}
+
 function requete_themes_catalogues($langue)
 {
 	$query = "SELECT DISTINCT t.ID, t.Titre".$langue." AS Titre ";
