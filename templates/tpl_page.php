@@ -32,8 +32,14 @@ function creer_templates($section,$item,$parametres,$langue)
 	$body .= ecrire_navigation_principale($section);
 	$body .= '<div class="spacer">&nbsp;</div>';
 	$body .= '</div>';
-		
-	$body .= '<div id="main">';
+        
+        if (isCollectionPage($item, $parametres)) {
+            $class = 'main-collection';
+        } else {
+            $class = 'main-home';
+        }
+        
+	$body .= "<div id=\"main\" class=\"$class\">";
 	switch($section)
 	{
             case "portrait":
@@ -191,7 +197,7 @@ function creer_templates($section,$item,$parametres,$langue)
 	// -----------------------------------------------------------------------
 	// -----------------  En-tête de page
 	// -----------------  Balises Meta
-	$lien_css = array(	"masson-v4.css" => "screen" );
+	$lien_css = array(	"masson-v5.css" => "screen" );
 	$head = ecrire_balise_head($meta_title,"","",$lien_css,"");					
 
 
@@ -200,4 +206,7 @@ function creer_templates($section,$item,$parametres,$langue)
 	// -----------------------------------------------------------------------
 	return ecrire_doctype_html($head,$body);
 }
-?>
+
+function isCollectionPage($item, $parametres) {
+    return $item || $parametres;
+}
