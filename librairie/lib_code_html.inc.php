@@ -455,7 +455,7 @@ function ecrire_catalogue($langue,$parametres)
 		{
 			$html .= '<div class="produit_sophie">';
 			$html .= '<a href="'.$lien['Collection'].$parametres.'/'.$row['ID'].'" title="'.$row['Nom'].'">';
-			$html .= '<img src="'.URL_IMG.'vign-'.$row['Photo'].'" alt="'.$row['Nom'].'" width="100"/>';
+			$html .= '<img src="'.URL_IMG.'vign-'.$row['Photo'].'" alt="'.$row['Nom'].'" width="200"/>';
 			$html .= '</a>';
 			$html .= '</div>';				
 		}	
