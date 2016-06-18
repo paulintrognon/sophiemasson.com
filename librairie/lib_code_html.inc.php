@@ -407,7 +407,7 @@ function ecrire_fiche_produit($item,$langue,$parametres)
         //$html .= '<p class=""><a href="'.$lien['Collection'].$parametres.'/0" title="">'.$phrase['RetourCatalogue'].'</a></p>';
         $html .= '<div>';
         $html .= createArrowLink($previous, $lien, $parametres, 'previous');
-        $html .= '<img class="product" src="'.URL_IMG.$row['Photo'].'" alt="'.affichage_donnee($row['MostCles']).'" />';
+        $html .= '<img class="product" src="'.URL_IMG.$row['Photo'].'" alt="'.affichage_donnee($row['MostCles']).' '.affichage_donnee($row['Nom']).' Sophie Masson Porcelaine" title="'.affichage_donnee($row['Nom']).'" />';
         $html .= createArrowLink($next, $lien, $parametres, 'next');
         
         $html .= '</div>';
