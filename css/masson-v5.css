@@ -25,11 +25,17 @@ body {
 .langue_site {
     float:right;
     text-align: right;
-    list-style-type: none;
     margin: 5px 0;
     padding: 0px;
     width: 200px;
 }
+
+.langue_site ul {
+    margin: 0;
+    padding: 0px;
+    list-style-type: none;
+}
+
 .langue_site li {
     display: inline;
     padding: 5px 10px;
@@ -48,6 +54,19 @@ body {
     text-decoration: underline;
 }
 
+.social_media_container {
+    float:left;
+    text-align: left;
+    margin: 5px 0;
+    padding: 0px;
+    width: 200px;
+    height: 0px;
+}
+
+.social_media_container img.social_media{
+   height: 30px;
+   margin-left: 5px;
+}
 
 
 #main_content {

@@ -586,6 +586,17 @@ function ecrire_langue_version($langue)
 	return $html;
 }
 
+function ecrire_reseau_sociaux() {
+    $lien = $GLOBALS['lien'];
+    $html = '<div class="social_media_container">';
+    $html .= '<a href="https://www.facebook.com/sophiemassonporcelaine/" target="_blank"><img class="social_media" src="'.$lien['Images'].'facebook_logo.png" /></a>';
+    $html .= '<a href="https://fr.pinterest.com/smmaass/" target="_blank"><img class="social_media" src="'.$lien['Images'].'pinterest_logo.png" /></a>';
+    $html .= '<a href="https://www.instagram.com/sophiemassonporcelaine/" target="_blank"><img class="social_media" src="'.$lien['Images'].'instagram_logo.png" /></a>';
+    $html .= '</div>';
+    
+    return $html;
+}
+
 
 function ecrire_liste_formes()
 {

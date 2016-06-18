@@ -23,9 +23,7 @@ function creer_templates($section,$item,$parametres,$langue)
 	$body .= '<div id="header">';
 
         // Facebooklike + language
-        $body .= '<div id="facebook-like-iframe">';
-	$body .= '<iframe src="http://www.facebook.com/plugins/like.php?href=http://fr-fr.connect.facebook.com/pages/Sophie-Masson-porcelaine/114232611973710?v=wall&amp;layout=button_count&amp;show_faces=false&amp;width=150&amp;action=like&amp;colorscheme=light" scrolling="no" frameborder="0" allowTransparency="true" style="border:none; overflow:hidden; width:150px; height:25px;"></iframe>';
-	$body .= '</div>';
+	$body .= ecrire_reseau_sociaux($langue);
 	$body .= ecrire_langue_version($langue);
         
 	$body .= ecrire_slogan();
