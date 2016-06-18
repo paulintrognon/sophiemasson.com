@@ -176,6 +176,11 @@ function creer_templates($section,$item,$parametres,$langue)
             case "paiement_paypal":
             $body .= afficher_bouton_paypal($parametres,$item);
             break;
+        
+            case "conditions_ventes":
+            $body .= lire_fichier('conditionsVentes.php','textes/');
+            $meta_title = "Conditions Générales de Ventes";
+            break;
 
             default:
                     $body .= entrer_dans_site($langue);

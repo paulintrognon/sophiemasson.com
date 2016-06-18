@@ -264,6 +264,14 @@ body {
     text-decoration: none;
 }
 
+#contitions_ventes {
+    text-align: justify;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 #tailor-made {
     margin: auto;
     padding-top: 20px;

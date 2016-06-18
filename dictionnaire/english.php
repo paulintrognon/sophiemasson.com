@@ -9,7 +9,8 @@
 // --------------------------------------------------------------------------------
 $phrase['AdresseMasson'] = "102 loft D2 Boulevard Montesquieu 59100 ROUBAIX - FRANCE";
 $phrase['ChampsObligatoires'] = "You must fill in all the Required fields to send your message";
-$phrase['Copyrights'] = "copyright (c) Sophie Masson - all rights reserved";
+$phrase['Copyrights'] = "copyright © Sophie Masson";
+$phrase['ConditionsVentes'] = "standard form contract";
 $phrase['CreationSurMesure'] = "All our creations are made to measure according to your choices. Don’t hesitate to indicate your models, colours and patterns  in order realize your  crockery (porcelain tableware) to measure.";
 $phrase['DemandeInfoCommande'] = "Ask for information, order ";
 $phrase['EmailIncorrect'] = "Your e-mail address is incorrect. Your message cannot be sent";
@@ -125,6 +126,7 @@ $lien['MentionsDeveloppement'] = "http://www.arnaudmeunier.com";
 $lien['MentionsPhotos'] = "http://www.renaudwailliez.com";
 $lien['Portrait'] = URL.'porcelain/portrait/creation-tableware-crockery.html';
 $lien['Services'] = URL.'porcelain/services/design-wedding-list-dishes.html';
+$lien['ConditionsVentes'] = URL.'porcelain/conditions_ventes';
 
 
 // --------------------------------------------------------------------------------

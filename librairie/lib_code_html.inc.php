@@ -294,7 +294,7 @@ function ecrire_footer()
 	$html .= '<p>'.$phrase['footer'].'</p>';
 	$html .= '<p>'.$phrase['MentionsDeveloppement'].'</p>';
 	$html .= '<p>'.$phrase['AdresseMasson'].'</p>';
-	$html .= '<p>'.$phrase['Copyrights'].'</p>';
+	$html .= '<p>'.$phrase['Copyrights'].' - <a href="'.$lien['ConditionsVentes'].'">'.$phrase['ConditionsVentes'].'</a></p>';
 	$html .= '</div>';
 		//$html .= '<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fplatform&width=292&colorscheme=light&show_faces=true&stream=true&header=true&height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:292px; height:427px;" allowTransparency="true"></iframe>';
 	$html .= '</div>';

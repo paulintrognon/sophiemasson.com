@@ -10,7 +10,8 @@
 $phrase['AdresseMasson'] = "102 loft D2 Boulevard Montesquieu 59100 ROUBAIX";
 $phrase['AucunPaiement'] = "Aucun paiement ne correspond à ces critères.";
 $phrase['ChampsObligatoires'] = "Vous devez remplir tous les champs obligatoires pour envoyer votre message.";
-$phrase['Copyrights'] = "copyright (c) Sophie Masson - all rights reserved";
+$phrase['Copyrights'] = "copyright © Sophie Masson";
+$phrase['ConditionsVentes'] = "conditions générales de vente";
 $phrase['CreationSurMesure'] = "Toutes nos créations sont réalisées sur mesure en fonction de vos choix. N'hésitez pas à nous indiquer vos modèles, couleurs et motifs pour que nous puissions réaliser votre vaisselle sur mesure.";
 $phrase['DemandeInfoCommande'] = "Demande d'information, commande, ... ";
 $phrase['EmailIncorrect'] = "Votre adresse email est incorrecte. Votre message ne peut être envoyé.";
@@ -124,6 +125,7 @@ $lien['MentionsDeveloppement'] = "http://www.arnaudmeunier.com";
 $lien['MentionsPhotos'] = "http://www.renaudwailliez.com";
 $lien['Portrait'] = URL.'porcelaine/portrait/creatrice-vaisselle-arts-table.html';
 $lien['Services'] = URL.'porcelaine/services/stylisme-liste-mariage-boutique-vaisselle.html';
+$lien['ConditionsVentes'] = URL.'porcelaine/conditions_ventes';
 
 
 // --------------------------------------------------------------------------------
