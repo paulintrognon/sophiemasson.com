@@ -46,7 +46,7 @@ function rq_liste_presse()
 	$query = "SELECT ID, Revue, Couverture, Page1 ";
 	$query .= "FROM presse ";
 	$query .= "WHERE Affichage='yes' ";
-	$query .= "ORDER BY ID";
+	$query .= "ORDER BY ID DESC";
 	return $query;
 }
 

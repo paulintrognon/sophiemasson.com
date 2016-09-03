@@ -364,11 +364,11 @@ body {
 .presse {
     margin: 0px auto;
     padding: 5px;
-    width: 680px;
+    width: 650px;
     color: #8F7A7B;
 }
 .couv_presse {
-    float: right;
+    float: left;
     margin: 0px;
     padding: 0px;
 }
