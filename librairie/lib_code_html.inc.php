@@ -415,7 +415,7 @@ function ecrire_fiche_produit($item,$langue,$parametres)
         $html .= '<h1>'.affichage_donnee($row['Nom']).'</h1>';
         $html .= '<p>'.affichage_donnee($row['Description']).'</p>';
         $html .= '<p>'.$mot['Prix'].' : '.$row['Prix'].' euros TTC</p>';
-        $html .= '<p><a href="'.$lien['eshop'].'">'.$phrase['PourAcheterCetCreation'].'</a> | ';
+        $html .= '<p><a target="_blank" href="'.$lien['eshop'].'">'.$phrase['PourAcheterCetCreation'].'</a> | ';
         $html .= '<a href="'.$lien['Formes'].'">'.$phrase['PourPersonnaliserCetteCreation'].'</a></p>';
         $html .= '</div>';
         
