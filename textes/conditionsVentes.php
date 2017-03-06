@@ -124,7 +124,7 @@
     1) indiquer sur le bon de livraison sous forme de réserve manuscrite accompagnée de sa signature toute anomalie concernant la livraison.<br />
     2) contacter la société « SOPHIE MASSON PORCELAINE » dès que possible et au plus tard dans les 24h à compter de la livraison. Il pourra être demandé au Client de fournir des photos des parties endommagées pour les dossiers de la société « SOPHIE MASSON PORCELAINE » afin de lui permettre de prendre des mesures appropriées. Toute réclamation formulée en dehors de ce délai ne pourra être acceptée. </p>
 
-    <p>Par ailleurs, le client doit s'assurer que les biens qui lui ont été livrées correspondent à la commande. En cas de non-conformité des biens, en nature ou en qualité, aux spécifications mentionnées dans le bon de livraison, le client doit informer le vendeur par courrier électronique à l'adresse mail sophie-masson@orange.fr et renvoyer les biens selon les modalités visées à l'article 9.</p>
+    <p>Par ailleurs, le client doit s'assurer que les biens qui lui ont été livrées correspondent à la commande. En cas de non-conformité des biens, en nature ou en qualité, aux spécifications mentionnées dans le bon de livraison, le client doit informer le vendeur par courrier électronique à l'adresse mail contact@sophiemasson.com et renvoyer les biens selon les modalités visées à l'article 9.</p>
 
     <p>La livraison est constituée par le transfert au client de la possession physique et/ou du contrôle du produit. </p>
 

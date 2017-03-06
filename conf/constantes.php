@@ -37,6 +37,6 @@ define("TITRE","Sophie Masson, porcelaine personnalisée Lille Paris");
 define("KEYWORDS","Sophie Masson, vaisselle, porcelaine, lille, paris, mugs, assiette, tasse, bol, plateau, création, créatrice, personnalisation, sur-mesure, vente");
 define("DESCRIPTION","Sophie Masson, créatrice de services en porcelaine personnalisés / édition sur porcelaine, Lille et Paris. Art de la table, mugs, assiettes, tasses, cafés, bols, vases, déjeuners...");
 define("FROM_NAME", "Sophie Masson");
-define("FROM_EMAIL", "sophie-masson@orange.fr");
-define("TO_EMAIL", "sophie-masson@orange.fr");
+define("FROM_EMAIL", "contact@sophiemasson.com");
+define("TO_EMAIL", "contact@sophiemasson.com");
 ?>

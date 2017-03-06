@@ -170,7 +170,7 @@ function ecrire_form_contact($valeurs)
     $phrase = $GLOBALS['phrase'];
     $mot = $GLOBALS['mot'];
     
-    $form = '<p class="email-contact-sentence">Vous pouvez nous contacter directement via <a href="mailto:sophie-masson@orange.fr">sophie-masson@orange.fr</a>,<br />ou en remplissant le formulaire ci-dessous.</p>';
+    $form = '<p class="email-contact-sentence">Vous pouvez nous contacter directement via <a href="mailto:contact@sophiemasson.com">contact@sophiemasson.com</a>,<br />ou en remplissant le formulaire ci-dessous.</p>';
 
     $form .= '<form name="contact" action="' . $_SERVER['REQUEST_URI'] . '" method="post">';
     $form .= '<fieldset>';
@@ -661,7 +661,7 @@ function creer_bouton_paypal($values)
 	$html = '<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="paypal">';
 	// détermine bouton acheter maintenant
 	$html .= '<input type="hidden" name="cmd" value="_xclick">';
-	$html .= '<input type="hidden" name="business" value="sophie-masson@orange.fr">';
+	$html .= '<input type="hidden" name="business" value="contact@sophiemasson.com">';
 	$html .= '<input type="hidden" name="quantity" value="1">';
 	$html .= '<input type="hidden" name="item_name" value="'.$values['Objet'].'">';
 	$html .= '<input type="hidden" name="amount" value="'.$values['Montant'].'">';
