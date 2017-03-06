@@ -25,7 +25,7 @@ $phrase['MessageEnvoye'] = "Votre message a bien été envoyé.";
 $phrase['MobMasson'] = "Mob : 06 76 123 386";
 $phrase['MonActu'] = "Actualités";
 $phrase['PayerParPaypal'] = "Nous vous proposons de payer via Paypal en cliquant sur le bouton ci-dessous";
-$phrase['PourAcheterCetCreation'] = "Pour acheter cette création, contactez-nous (possibilité de <strong>paiement via Paypal</strong>)";
+$phrase['PourAcheterCetCreation'] = "Retrouvez cette création sur <strong>l'e-shop</strong>";
 $phrase['PourMeContacter'] = "&nbsp;";
 $phrase['PourMontant'] = "pour un montant de";
 $phrase['PourPersonnaliserCetteCreation'] = "Vous pouvez commander une version personnalisée";
@@ -126,6 +126,7 @@ $lien['MentionsPhotos'] = "http://www.renaudwailliez.com";
 $lien['Portrait'] = URL.'porcelaine/portrait/creatrice-vaisselle-arts-table.html';
 $lien['Services'] = URL.'porcelaine/services/stylisme-liste-mariage-boutique-vaisselle.html';
 $lien['ConditionsVentes'] = URL.'porcelaine/conditions_ventes';
+$lien['eshop'] = 'http://shop.sophiemasson.com';
 
 
 // --------------------------------------------------------------------------------
